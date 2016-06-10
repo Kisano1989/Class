@@ -1,0 +1,78 @@
+.contacts{
+	padding: 0 2%;
+	@media screen and (min-width: @width-tablet){
+	background-color: #ededed;
+	height: 56px;
+	}
+
+    .cont-email, .cont-find{
+ 
+    	padding-top: 15px;
+		height: 100%;
+		width: 100%;
+      @media screen and (min-width: @width-tablet){
+    	.text-left;
+    	display: inline-block;
+    	height: 55px;
+    	width: 70%;
+       }
+      input{
+       .contact-mail;
+        height: 89px;
+        display: inline-block;
+        background-color: #ededed;
+      @media screen and (min-width: @width-tablet){
+    	width: 132px;
+    	height: 22px;
+    	background-color: none;
+        }
+      }
+
+     label{
+    		display: none;
+    	@media screen and (min-width: @width-tablet){
+    		display: inline-block;
+    		color: #6b6b6b;
+    		font-family: arial;
+    		font-size: 0.75rem;
+            padding-right: 10px;	
+			}
+    	      }
+      
+      button{
+      	    border:none;
+            width: 95px;
+        	height: 95px;
+        	vertical-align: top;
+        	background-color: #fd926d;
+      	@media screen and (min-width: @width-tablet){
+        	width: 28px;
+        	height: 28px;
+        	
+        }
+          	
+    }
+     }
+    .cont-find{
+    	background-color: @base-color;
+	    display: inline-block;
+       @media screen and (min-width: @width-large){
+    	.text-right;
+    	line-height: 100%;
+    	background-color: #ededed;
+    	height:100%;
+    	width: 30%;
+    	
+          }
+        span{
+    		color: #6b6b6b;
+    	@media screen and (min-width: @width-large){
+    		font-family: arial;
+    		font-size: 0.75rem;
+    		vertical-align: middle;
+            padding-right: 10px;
+            
+    	    }
+    	  }
+     }
+ }
